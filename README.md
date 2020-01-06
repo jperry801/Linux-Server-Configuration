@@ -186,17 +186,18 @@ __User / Password__: grader / grader1<br>
                   app.run()
                       
           __LINE 15__<br>
-              - `engine = create_engine('sqlite:////var/www/ItemCatalog/ItemCatalog/     appwithusers.db?check_same_thread=False')`
+              `engine = create_engine('sqlite:////var/www/ItemCatalog/ItemCatalog/      	 
+	       appwithusers.db?check_same_thread=False')`
           
           __LINE 24__<br>
-              - `CLIENT_ID = json.loads(open('/var/www/ItemCatalog/ItemCatalog           client_secrets_json', 'r').read())['web']['client_id]`
+               `CLIENT_ID = json.loads(open('/var/www/ItemCatalog/ItemCatalog/client_secrets_json', 'r').read())['web']   ['client_id]`
 
           __LINE 48__<br>
-              - `oauth_flow = flow_from_clientsecrets('/var/www/ItemCatalog/             ItemCatalog/client_secrets.json', scope='')`
+               `oauth_flow = flow_from_clientsecrets('/var/www/ItemCatalog/ItemCatalog/client_secrets.json', scope='')`
 
       - Make the following change in __database_setup.py__:<br>
           __LINE 59__<br>
-              - `engine = create_engine('sqlite:////var/www/ItemCatalog/ItemCatalog/     appwithusers.db')` 
+               `engine = create_engine('sqlite:////var/www/ItemCatalog/ItemCatalog/     appwithusers.db')` 
 
       - Confirm app is set up correctly
         `/var/www/ItemCatalog/ItemCatalog`
