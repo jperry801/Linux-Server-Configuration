@@ -10,7 +10,7 @@ the Item Catalog Project.
 __Public IP Address__ 18.237.248.104<br>
 __Private IP__ 172.26.9.100<br>
 __SSH Port__ 2200<br>
-__Application URL__ http://18.237.248.104<br>
+__Application URL__ http://18.237.248.104.xip.io<br>
 __User / Password__: grader / grader1<br>
 
 ## SERVER CONFIGURATION INSTRUCTIONS
@@ -276,7 +276,7 @@ __User / Password__: grader / grader1<br>
       
       - Save and close the file.
     
-      - You will also need to download the JSON file from Google Developers Console     to your local machine.
+      - You will also need to download the JSON file from [Google Developers Console](https://console.developers.google.com) to your local machine.
 
       - When downloaded, go to this directory in your terminal:<br>
         `sudo nano /var/www/ItemCatalog/ItemCatalog/client_secrets.json`
