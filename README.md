@@ -300,6 +300,8 @@ __User / Password__: grader / grader1<br>
       - Visit website by opening up a web browser<br>
           `http://18.237.248.104`  
 
+### Resources
+  __DigitalOcean__   [How To Deploy a Flask Application on an Ubuntu VPS](https://www.digitalocean.com/community/tutorials/how-to-deploy-a-flask-application-on-an-ubuntu-vps)
 
 
 
