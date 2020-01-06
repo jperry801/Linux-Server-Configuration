@@ -32,7 +32,8 @@ __User / Password__: grader / grader1<br>
 
     - __Re-configure sshd_config file__<br>
         In terminal, enter `sudo nano /etc/ssh/sshd_config`.<br> 
-        change line 5 from __#22__ to __2200__.
+        Uncomment line 5 and change __22__ to __2200__.<br>
+	Uncomment line 32 and change __prohibit-password__ to __no__<br>
         Save and close the file.<br>
         Restart the ssh service<br>
         `sudo service sshd restart`
