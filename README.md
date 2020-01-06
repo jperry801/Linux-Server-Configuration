@@ -194,10 +194,14 @@ __User / Password__: grader / grader1<br>
 
           __LINE 48__<br>
               - `oauth_flow = flow_from_clientsecrets('/var/www/ItemCatalog/             ItemCatalog/client_secrets.json', scope='')`
+	      
+      - Save and close the file.
 
       - Make the following change in __database_setup.py__:<br>
           __LINE 59__<br>
               - `engine = create_engine('sqlite:////var/www/ItemCatalog/ItemCatalog/     appwithusers.db')` 
+
+      - Save and close the file.
 
       - Confirm app is set up correctly
         `/var/www/ItemCatalog/ItemCatalog`
