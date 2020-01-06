@@ -287,14 +287,6 @@ __User / Password__: grader / grader1<br>
 
       - Save and close the file.
 
-      - Open the `__init.py__` file:<br>
-        `sudo nano /var/www/ItemCatalog/ItemCatalog/__init__.py`
-
-      - Make the following change on line 48:<br>
-        `oauth_flow = flow_from_clientsecrets('/var/www/ItemCatalog/ItemCatalog/client_secrets.json', scope='')`
-
-      - Save and close the file.
-
       - Restart apache service<br>
           `sudo service apache2 restart`
 
