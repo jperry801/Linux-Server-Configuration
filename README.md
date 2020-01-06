@@ -198,8 +198,8 @@ __User / Password__: grader / grader1<br>
           __LINE 59__<br>
               - `engine = create_engine('sqlite:////var/www/ItemCatalog/ItemCatalog/     appwithusers.db')` 
 
-      - Confirm app is set up correctly
-        `/var/www/ItemCatalog/ItemCatalog`
+      - Confirm app is set up correctly by running the application<br>
+        `cd /var/www/ItemCatalog/ItemCatalog`<br>
         `python __init__.py`
     
       You should see the following:
