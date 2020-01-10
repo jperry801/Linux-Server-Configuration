@@ -7,8 +7,8 @@ the Item Catalog Project.
 
 ## Server Information
     
-__Public IP Address__ 18.237.248.104<br>
-__Private IP__ 172.26.9.100<br>
+__Public IP Address__<br>
+__Private IP__ <br>
 __SSH Port__ 2200<br>
 __Application URL__ http://18.237.248.104.xip.io<br>
 __User / Password__: grader / grader1<br>
