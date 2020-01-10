@@ -10,7 +10,7 @@ the Item Catalog Project.
 __Public IP Address__<br>
 __Private IP__ <br>
 __SSH Port__ 2200<br>
-__Application URL__ http://18.237.248.104.xip.io<br>
+__Application URL__<br>
 __User / Password__: grader / grader1<br>
 
 ## SERVER CONFIGURATION INSTRUCTIONS
